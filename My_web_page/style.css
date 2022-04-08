@@ -1,0 +1,41 @@
+body {
+  background-color: #82eedc;
+}
+.bg {
+  background-color: rgb(75, 180, 156);
+}
+.logo {
+  position: relative;
+  margin-left: 15%;
+}
+.rounded-img {
+  width: 100%;
+  border-radius: 5%;
+  box-shadow: 0 0 10px black;
+  padding: 0.3em;
+  margin-bottom: 2em;
+}
+.justify-content-left {
+  position: relative;
+  margin-left: 10%;
+}
+.nav-link {
+  color: rgb(14, 95, 29);
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration-line: underline overline;
+  color: chartreuse;
+}
+.active {
+  color: rgba(249, 249, 8, 0.97);
+  text-decoration: dotted;
+}
+.btn {
+  color: rgb(20, 64, 43);
+  background-color: rgb(68, 186, 33);
+}
+.btn:hover {
+  color: rgb(156, 213, 50);
+  background-color: rgb(38, 33, 186);
+}
