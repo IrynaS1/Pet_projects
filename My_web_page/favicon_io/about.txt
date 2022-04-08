@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Galdeano
+- Font Author: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with Reserved Font Name "Galdeano".
+- Font Source: http://fonts.gstatic.com/s/galdeano/v20/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
