@@ -1,0 +1,50 @@
+<!--Страница формы для регистрации: HTML5, CSS, Bootstrap-->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма для входа</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form class="form box-shadow">
+      <h1 class="text">Добро пожаловать!</h1>
+      <div class="row g-3">
+        <div class="col">
+          <p>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Логин"
+              aria-label="Логин"
+            />
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Пароль"
+              aria-label="Пароль"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck">
+            <em><b>Запомнить меня</b></em>
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Войти</button>
+      </div>
+    </form>
+  </body>
+</html>
