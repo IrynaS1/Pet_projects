@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My simple calculator</title>
+  </head>
+  <body>
+    <h1>Калькулятор</h1>
+    <form>
+      <p>Число 1: <input type="text" id="n1" placeholder="Введите число" /></p>
+      <p>
+        Операция
+        <button id="plus">+</button>
+        <button id="minus">-</button>
+        <button id="multiply">*</button>
+        <button id="devide">/</button>
+      </p>
+      <p>Число 2: <input type="text" id="n2" placeholder="Введите число" /></p>
+
+      <button onclick="calculate()">Произвести вычисления</button>
+      <hr />
+      <p id="out">Результат:</p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
